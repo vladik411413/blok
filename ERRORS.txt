@@ -1,0 +1,36 @@
+	Enable	Action	Affected Object		Affected Document	Check	Done	Message
+
+	True	Add	C1	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D8.00mm S3.50mm H12.50mm
+	True	Add	C2	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C3	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C4	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D8.00mm S3.50mm H12.50mm
+	True	Add	C5	To	PCB1.PcbDoc			Footprint Not Found CAP FILM 1210
+	True	Add	C6	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C7	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D10.00mm S5.00mm H10.50mm
+	True	Add	C8	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D18.00mm S7.50mm H42.00mm
+	True	Add	C9	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C10	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D18.00mm S7.50mm H42.00mm
+	True	Add	C11	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C12	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D8.00mm S3.50mm H12.50mm
+	True	Add	C13	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C14	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C15	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C16	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C17	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C18	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	C19	To	PCB1.PcbDoc			Footprint Not Found CAP TH ALUM ELEC D5.00mm S2.00mm H11.00mm
+	True	Add	C20	To	PCB1.PcbDoc			Footprint Not Found CAPC2012L-С0805
+	True	Add	R1	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R2	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R4	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R6	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R7	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R8	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R9	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R12	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R13	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R14	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R15	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	R16	To	PCB1.PcbDoc			Footprint Not Found RESC2012N
+	True	Add	X1	To	PCB1.PcbDoc			Footprint Not Found KLEMNIK2
+	True	Add	X2	To	PCB1.PcbDoc			Footprint Not Found KLEMNIK2
