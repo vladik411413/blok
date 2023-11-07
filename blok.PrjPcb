@@ -216,7 +216,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MPRJBCLL
 
 [Document11]
 DocumentPath=SamacSys.SchLib
@@ -233,7 +233,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=NGLTGAHM
 
 [Document12]
 DocumentPath=NEW-MODUL.PcbLib
@@ -268,6 +268,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document14]
+DocumentPath=GOST\GOST_2.728_Rezistory&Kondensatory.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MICYBJTR
 
 [Configuration1]
 Name=Sources
@@ -1262,7 +1279,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Comment
@@ -1289,8 +1306,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Any
 ComponentLibraryIdentifier0=
-ComponentDesignItemID0=1N5355B
-ComponentSymbolReference0=1N5355B
+ComponentDesignItemID0=1N4148W-V-GS08
+ComponentSymbolReference0=1N4148W-V-GS08
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
@@ -1330,63 +1347,63 @@ ComponentSymbolReference6=Capacitor
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Celestial Altium Library - altium_library.DbLib/Diodes - Rectifiers - Single
-ComponentDesignItemID7=1N4148WS
-ComponentSymbolReference7=Diode
+ComponentLibraryIdentifier7=Components.SchLib
+ComponentDesignItemID7=Inductor
+ComponentSymbolReference7=Inductor
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Components.SchLib
-ComponentDesignItemID8=Inductor
-ComponentSymbolReference8=Inductor
+ComponentDesignItemID8=LM2576-ADJ
+ComponentSymbolReference8=LM2576-ADJ
 ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Components.SchLib
-ComponentDesignItemID9=LM2576-ADJ
-ComponentSymbolReference9=LM2576-ADJ
+ComponentDesignItemID9=Transformer
+ComponentSymbolReference9=Transformer
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Components.SchLib
-ComponentDesignItemID10=Transformer
-ComponentSymbolReference10=Transformer
+ComponentDesignItemID10=UCC27322
+ComponentSymbolReference10=UCC27322
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Components.SchLib
-ComponentDesignItemID11=UCC27322
-ComponentSymbolReference11=UCC27322
+ComponentLibraryIdentifier11=NEW-MODUL.IntLib
+ComponentDesignItemID11=C0805
+ComponentSymbolReference11=C0805
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=NEW-MODUL.IntLib
-ComponentDesignItemID12=C0805
-ComponentSymbolReference12=C0805
+ComponentDesignItemID12=KLEMMNIK2
+ComponentSymbolReference12=KLEMMNIK2
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=NEW-MODUL.IntLib
-ComponentDesignItemID13=KLEMMNIK2
-ComponentSymbolReference13=KLEMMNIK2
+ComponentDesignItemID13=MLT05W
+ComponentSymbolReference13=MLT05W
 ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
 ComponentLibraryIdentifier14=NEW-MODUL.IntLib
-ComponentDesignItemID14=MLT05W
-ComponentSymbolReference14=MLT05W
+ComponentDesignItemID14=R0805
+ComponentSymbolReference14=R0805
 ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=NEW-MODUL.IntLib
-ComponentDesignItemID15=R0805
-ComponentSymbolReference15=R0805
+ComponentLibraryIdentifier15=NEW-MODUL.SchLib
+ComponentDesignItemID15=LM358
+ComponentSymbolReference15=LM358
 ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=NEW-MODUL.SchLib
-ComponentDesignItemID16=LM358
-ComponentSymbolReference16=LM358
+ComponentLibraryIdentifier16=SamacSys.SchLib
+ComponentDesignItemID16=1N5355B
+ComponentSymbolReference16=1N5355B
 ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
@@ -1458,152 +1475,134 @@ ParameterName8=componentlink2description
 ParameterUpdate8=1
 ParameterName9=componentlink2url
 ParameterUpdate9=1
-ParameterName10=Current - Average Rectified (Io)
+ParameterName10=Datasheet Link
 ParameterUpdate10=1
-ParameterName11=Current - Reverse Leakage @ Vr
+ParameterName11=Description
 ParameterUpdate11=1
-ParameterName12=Datasheet Link
+ParameterName12=Device Package
 ParameterUpdate12=1
-ParameterName13=Description
+ParameterName13=Dielectric Material
 ParameterUpdate13=1
-ParameterName14=Device Package
+ParameterName14=Features
 ParameterUpdate14=1
-ParameterName15=Dielectric Material
+ParameterName15=Height
 ParameterUpdate15=1
-ParameterName16=Diode Type
+ParameterName16=Height - Seated (Max)
 ParameterUpdate16=1
-ParameterName17=Features
+ParameterName17=Impedance
 ParameterUpdate17=1
-ParameterName18=Height
+ParameterName18=lastupdated
 ParameterUpdate18=1
-ParameterName19=Height - Seated (Max)
+ParameterName19=Lead Spacing
 ParameterUpdate19=1
-ParameterName20=Impedance
+ParameterName20=Library Reference
 ParameterUpdate20=1
-ParameterName21=lastupdated
+ParameterName21=Lifecycle Status
 ParameterUpdate21=1
-ParameterName22=Lead Spacing
+ParameterName22=Lifetime @ Temp.
 ParameterUpdate22=1
-ParameterName23=Library Reference
+ParameterName23=manufacturer
 ParameterUpdate23=1
-ParameterName24=Lifecycle Status
+ParameterName24=Manufacturer_Name
 ParameterUpdate24=1
-ParameterName25=Lifetime @ Temp.
+ParameterName25=Manufacturer_Part_Number
 ParameterUpdate25=1
-ParameterName26=manufacturer
+ParameterName26=Minimum Order
 ParameterUpdate26=1
-ParameterName27=Manufacturer_Name
+ParameterName27=Mounting Type
 ParameterUpdate27=1
-ParameterName28=Manufacturer_Part_Number
+ParameterName28=Mouser Part Number
 ParameterUpdate28=1
-ParameterName29=Minimum Order
+ParameterName29=Mouser Price/Stock
 ParameterUpdate29=1
-ParameterName30=Mounting Type
+ParameterName30=Operating Temperature
 ParameterUpdate30=1
-ParameterName31=Mouser Part Number
+ParameterName31=Package / Case
 ParameterUpdate31=1
-ParameterName32=Mouser Price/Stock
+ParameterName32=packaging
 ParameterUpdate32=1
-ParameterName33=Operating Temperature
+ParameterName33=Part Number
 ParameterUpdate33=1
-ParameterName34=Operating Temperature - Junction
+ParameterName34=Part Status
 ParameterUpdate34=1
-ParameterName35=Package / Case
+ParameterName35=partid
 ParameterUpdate35=1
-ParameterName36=packaging
+ParameterName36=Polarization
 ParameterUpdate36=1
-ParameterName37=Part Number
+ParameterName37=price
 ParameterUpdate37=1
-ParameterName38=Part Status
+ParameterName38=Ratings
 ParameterUpdate38=1
-ParameterName39=partid
+ParameterName39=Ripple Current @ High Frequency
 ParameterUpdate39=1
-ParameterName40=Polarization
+ParameterName40=Ripple Current @ Low Frequency
 ParameterUpdate40=1
-ParameterName41=price
+ParameterName41=series
 ParameterUpdate41=1
-ParameterName42=Ratings
+ParameterName42=Size / Dimension
 ParameterUpdate42=1
-ParameterName43=Reverse Recovery Time (trr)
+ParameterName43=Supplier 1
 ParameterUpdate43=1
-ParameterName44=Ripple Current @ High Frequency
+ParameterName44=Supplier Part Number 1
 ParameterUpdate44=1
-ParameterName45=Ripple Current @ Low Frequency
+ParameterName45=Termination
 ParameterUpdate45=1
-ParameterName46=series
+ParameterName46=Thickness (Max)
 ParameterUpdate46=1
-ParameterName47=Size / Dimension
+ParameterName47=Tolerance
 ParameterUpdate47=1
-ParameterName48=Speed
+ParameterName48=Value
 ParameterUpdate48=1
-ParameterName49=Supplier 1
+ParameterName49=Voltage - Rated
 ParameterUpdate49=1
-ParameterName50=Supplier Device Package
+ParameterName50=Voltage Rating - DC
 ParameterUpdate50=1
-ParameterName51=Supplier Part Number 1
-ParameterUpdate51=1
-ParameterName52=Termination
-ParameterUpdate52=1
-ParameterName53=Thickness (Max)
-ParameterUpdate53=1
-ParameterName54=Tolerance
-ParameterUpdate54=1
-ParameterName55=Value
-ParameterUpdate55=1
-ParameterName56=Voltage - DC Reverse (Vr) (Max)
-ParameterUpdate56=1
-ParameterName57=Voltage - Forward (Vf) (Max) @ If
-ParameterUpdate57=1
-ParameterName58=Voltage - Rated
-ParameterUpdate58=1
-ParameterName59=Voltage Rating - DC
-ParameterUpdate59=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CAP 1210_3225 - 1MM
+ModelName0=1N4148WVGS08
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAP FILM 1210
+ModelName1=CAP 1210_3225 - 1MM
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAP TH ALUM ELEC D10.00mm S5.00mm H10.50mm
+ModelName2=CAP FILM 1210
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=CAP TH ALUM ELEC D18.00mm S7.50mm H42.00mm
+ModelName3=CAP TH ALUM ELEC D10.00mm S5.00mm H10.50mm
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CAP TH ALUM ELEC D5.00mm S2.00mm H11.00mm
+ModelName4=CAP TH ALUM ELEC D18.00mm S7.50mm H42.00mm
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAP TH ALUM ELEC D8.00mm S3.50mm H12.50mm
+ModelName5=CAP TH ALUM ELEC D5.00mm S2.00mm H11.00mm
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CAPC2012L-С0805
+ModelName6=CAP TH ALUM ELEC D8.00mm S3.50mm H12.50mm
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=DIOAD2260W109L864D349
+ModelName7=CAPC2012L-С0805
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=Inductor
+ModelName8=DIOAD2260W109L864D349
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=KLEMNIK2
+ModelName9=Inductor
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=LM2576
+ModelName10=KLEMNIK2
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=MLT05WT
+ModelName11=LM2576
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=PDB181K220K104B
+ModelName12=MLT05WT
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=RESC2012N
+ModelName13=PDB181K220K104B
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=SOD323F
+ModelName14=RESC2012N
 ModelUpdate14=1
 ModelType15=PCBLIB
 ModelName15=SOIC127P599X175-8N
@@ -1635,6 +1634,33 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=GND|NetColor=clBlack
+Net2=NetName=NetC10_2|NetColor=clBlack
+Net3=NetName=NetC12_1|NetColor=clBlack
+Net4=NetName=NetC7_1|NetColor=clBlack
+Net5=NetName=NetC7_2|NetColor=clBlack
+Net6=NetName=NetC8_1|NetColor=clBlack
+Net7=NetName=NetC8_2|NetColor=clBlack
+Net8=NetName=NetC9_1|NetColor=clBlack
+Net9=NetName=NetC9_2|NetColor=clBlack
+Net10=NetName=NetD1_2|NetColor=clBlack
+Net11=NetName=NetDA1_2|NetColor=clBlack
+Net12=NetName=NetDA1_3|NetColor=clBlack
+Net13=NetName=NetDA1_6|NetColor=clBlack
+Net14=NetName=NetIC3_2|NetColor=clBlack
+Net15=NetName=NetIC4_3|NetColor=clBlack
+Net16=NetName=NetIC4_6|NetColor=clBlack
+Net17=NetName=NetIC5_2|NetColor=clBlack
+Net18=NetName=NetL1_1|NetColor=clBlack
+Net19=NetName=NetQ1_1|NetColor=clBlack
+Net20=NetName=NetR10_1|NetColor=clBlack
+Net21=NetName=NetR11_1|NetColor=clBlack
+Net22=NetName=NetR7_1|NetColor=clBlack
+Net23=NetName=VCC15|NetColor=clBlack
+Net24=NetName=VCC5|NetColor=clBlack
+Net25=NetName=VCC60|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
