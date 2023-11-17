@@ -1255,10 +1255,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=SamacSys.SchLib
-ComponentDesignItemID0=LM7805MPX_NOPB
-ComponentSymbolReference0=LM7805MPX_NOPB
+ComponentDesignItemID0=Inductor
+ComponentSymbolReference0=Inductor
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=SamacSys.SchLib
+ComponentDesignItemID1=Transformer
+ComponentSymbolReference1=Transformer
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1272,35 +1278,22 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Datasheet Link
-ParameterUpdate4=1
-ParameterName5=Description
-ParameterUpdate5=1
-ParameterName6=Height
-ParameterUpdate6=1
-ParameterName7=Library Reference
-ParameterUpdate7=1
-ParameterName8=Manufacturer_Name
-ParameterUpdate8=1
-ParameterName9=Manufacturer_Part_Number
-ParameterUpdate9=1
-ParameterName10=Mouser Part Number
-ParameterUpdate10=1
-ParameterName11=Mouser Price/Stock
-ParameterUpdate11=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOT230P700X180-4N
+ModelName0=Inductor
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=Transformer
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1331,9 +1324,8 @@ Net19=NetName=NetQ1_1|NetColor=clBlack
 Net20=NetName=NetR10_1|NetColor=clBlack
 Net21=NetName=NetR11_1|NetColor=clBlack
 Net22=NetName=NetR7_1|NetColor=clBlack
-Net23=NetName=VCC15|NetColor=clBlack
-Net24=NetName=VCC5|NetColor=clBlack
-Net25=NetName=VCC60|NetColor=clBlack
+Net23=NetName=VCC5|NetColor=clBlack
+Net24=NetName=VCC60|NetColor=clBlack
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
